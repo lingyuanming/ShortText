@@ -86,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
             sms.sendTextMessage(str_num, null, texts, sentPI, deliverPI);
         }
         Toast.makeText(getBaseContext(), "短信发送完成", Toast.LENGTH_LONG).show();
+//        这是一句废话
     }
 
 }
